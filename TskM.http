@@ -1,0 +1,15 @@
+﻿@TskM_HostAddress = https://localhost:7281
+
+POST {{TskM_HostAddress}}/api/task
+Content-Type: application/json
+
+{
+  "tittle" : "Abracadra",
+  "IsCompleted" : true
+}
+
+###
+
+GET {{TskM_HostAddress}}/api/task
+
+###
